@@ -25,7 +25,7 @@ const MainContent: React.FC = () => {
 
   return (
     <div className="ml-64 p-8 bg-gray-50 h-full overflow-y-auto">
-      <SocialSidebar />  // Añade esta línea aquí para incluir el menú de redes sociales
+      <SocialSidebar />
 
       {/* Perfil */}
       <section className="mb-8 p-6 bg-white shadow-md rounded-lg flex flex-col sm:flex-row items-center">
