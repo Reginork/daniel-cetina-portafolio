@@ -4,8 +4,8 @@ Este proyecto es un portafolio personal diseñado para mostrar habilidades y pro
 
 ## Características
 
-- **Perfil Profesional**: Descripción breve del perfil profesional de Daniel.
-- **Conocimientos**: Sección que muestra las tecnologías y herramientas con las que Daniel tiene experiencia.
+- **Perfil Profesional**: Descripción breve de mi perfil profesional.
+- **Conocimientos**: Sección que muestra las tecnologías y herramientas con las que tengo experiencia.
 - **Educación**: Historial educativo y certificaciones relevantes.
 - **Portafolio**: Muestra una selección de proyectos destacados con detalles adicionales disponibles a través de un modal.
 - **Menú Lateral de Redes Sociales**: Íconos fijos en el lado derecho que enlazan a las redes sociales y perfiles profesionales de Daniel.
