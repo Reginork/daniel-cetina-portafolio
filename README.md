@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio de Daniel Cetina
 
-## Getting Started
+Este proyecto es un portafolio personal diseñado para mostrar habilidades y proyectos de desarrollo web de Daniel Cetina. Implementa un diseño responsivo utilizando Next.js y TailwindCSS, y presenta una estructura moderna y limpia.
 
-First, run the development server:
+## Características
+
+- **Perfil Profesional**: Descripción breve del perfil profesional de Daniel.
+- **Conocimientos**: Sección que muestra las tecnologías y herramientas con las que Daniel tiene experiencia.
+- **Educación**: Historial educativo y certificaciones relevantes.
+- **Portafolio**: Muestra una selección de proyectos destacados con detalles adicionales disponibles a través de un modal.
+- **Menú Lateral de Redes Sociales**: Íconos fijos en el lado derecho que enlazan a las redes sociales y perfiles profesionales de Daniel.
+- **Footer**: Incluye derechos de autor y una nota sobre la conectividad en redes sociales.
+
+## Tecnologías Utilizadas
+
+- **Next.js**: Framework de React para producción.
+- **TailwindCSS**: Framework de CSS para diseño responsivo y personalizado.
+- **React Icons**: Biblioteca de iconos que se utiliza para agregar iconos de redes sociales.
+
+## Estructura del Proyecto
+
+- `components/`: Contiene todos los componentes reutilizables divididos en átomos y organismos.
+  - `atoms/`: Componentes básicos como botones, tarjetas e íconos.
+  - `organisms/`: Componentes que combinan varios átomos y/o organismos para formar secciones de la aplicación.
+- `public/`: Almacena activos estáticos como imágenes.
+- `pages/`: Archivos que representan una página en Next.js.
+
+## Instalación
+
+Para ejecutar este proyecto localmente, necesitas tener instalado [Node.js](https://nodejs.org/) y preferiblemente [Yarn](https://yarnpkg.com/) como gestor de paquetes.
 
 ```bash
+# Clona este repositorio
+git clone https://github.com/daniel-cetina/mi-portafolio.git
+
+# Navega al directorio del proyecto
+cd mi-portafolio
+
+# Instala las dependencias
+npm install
+# o
+yarn install
+
+# Ejecuta el servidor de desarrollo
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

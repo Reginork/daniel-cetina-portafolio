@@ -1,5 +1,5 @@
-import Sidebar from '../components/organisms/Sidebar';
-import MainContent from '../components/organisms/MainContent';
+import Sidebar from './components/organisms/Sidebar';
+import MainContent from './components/organisms/MainContent';
 
 export default function Home() {
   return (
