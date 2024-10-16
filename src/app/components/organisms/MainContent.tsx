@@ -38,7 +38,7 @@ const MainContent: React.FC = () => {
           </p>
           <button
         onClick={() => handleLearnMore({
-          title: "Hola persona curiosa!",
+          title: "¡Hola, persona curiosa!",
           description: "Soy Daniel Cetina, y en realidad soy desarrollador Android, sin embargo, ¡desarrollé este proyecto porque siempre es bueno aprender más y más!",
           image: "/android.jpg"
         })}
