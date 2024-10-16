@@ -1,11 +1,14 @@
+import React from 'react';
 import Sidebar from '../components/organisms/Sidebar';
 import MainContent from '../components/organisms/MainContent';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex">
       <Sidebar />
       <MainContent />
     </div>
   );
-}
+};
+
+export default Home;
