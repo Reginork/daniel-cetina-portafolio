@@ -31,10 +31,10 @@ Para ejecutar este proyecto localmente, necesitas tener instalado [Node.js](http
 
 ```bash
 # Clona este repositorio
-git clone https://github.com/daniel-cetina/mi-portafolio.git
+git clone https://github.com/ingenieria-web-udea-LM-20242/daniel-cetina-portafolio
 
 # Navega al directorio del proyecto
-cd mi-portafolio
+cd daniel-cetina-portafolio
 
 # Instala las dependencias
 npm install
