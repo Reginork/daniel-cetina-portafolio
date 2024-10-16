@@ -18,9 +18,10 @@ const MainContent: React.FC = () => {
     setIsModalOpen(!isModalOpen);
   };
 
+  // Esta función toma un proyecto y actualiza el estado para abrir el modal y mostrar la información del proyecto
   const handleLearnMore = (project: { title: string; description: string; image: string }) => {
     setSelectedProject(project);
-    toggleModal();
+    setIsModalOpen(true);
   };
 
   return (
@@ -36,11 +37,15 @@ const MainContent: React.FC = () => {
             Me apasiona la tecnología y el aprendizaje continuo.
           </p>
           <button
-            onClick={toggleModal}
-            className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-          >
-            Ver más
-          </button>
+        onClick={() => handleLearnMore({
+          title: "Hola persona curiosa!",
+          description: "Soy Daniel Cetina, y en realidad soy desarrollador Android, sin embargo, ¡desarrollé este proyecto porque siempre es bueno aprender más y más!",
+          image: "/android.jpg"
+        })}
+        className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+      >
+        Ver más
+      </button>
         </div>
         <div className="sm:w-1/2 flex justify-center sm:justify-end mt-6 sm:mt-0">
           <img
@@ -99,24 +104,23 @@ const MainContent: React.FC = () => {
           <PortfolioCard
             title="Budget App"
             description="Una aplicación para gestionar y controlar presupuestos personales."
-            image="/budget.jpg" // Asegúrate de que esta es la ruta correcta
+            image="/budget.jpg"
             onLearnMore={() => handleLearnMore({
               title: "Budget App",
               description: "Esta aplicación ayuda a los usuarios a administrar sus gastos y mantener un control sobre su presupuesto personal.",
-              image: "/budget.jpg" // Confirmar que esta es la ruta correcta
+              image: "/budget.jpg"
             })}
           />
           <PortfolioCard
             title="Calculadora"
             description="Una calculadora interactiva construida con tecnologías web."
-            image="/calculadora.png" // Asegúrate de que esta es la ruta correcta
+            image="/calculadora.png"
             onLearnMore={() => handleLearnMore({
               title: "Calculadora",
               description: "Esta calculadora permite realizar operaciones básicas y complejas, ofreciendo una interfaz amigable al usuario.",
-              image: "/calculadora.jpg" // Confirmar que esta es la ruta correcta
+              image: "/calculadora.png"
             })}
           />
-          {/* Agrega más PortfolioCards según sea necesario */}
         </div>
       </section>
 
